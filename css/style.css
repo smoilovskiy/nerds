@@ -2,3 +2,31 @@
   max-width: 1157px;
   margin: 0 auto;
 }
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+/*  margin-top: 48px; */
+}
+
+.menu {
+ font-size: 25;
+ font-weight: 400;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list-item {
+  padding: 45px;
+}
+
+.header__cart-icon {
+
+}
+
+.header__cart-link {
+  padding-left: 25px;
+}
