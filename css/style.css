@@ -48,6 +48,11 @@ a {
  color: #000;
 }
 
+.menu__list-link:hover {
+  padding-bottom: 14px;
+  border-bottom: 2px solid #FB565A;
+}
+
 .menu__list {
   display: flex;
 }
@@ -66,6 +71,11 @@ a {
 
 .header__cart {
   padding-top: 15px;
+}
+
+.header__cart-link:hover {
+  padding-bottom: 14px;
+  border-bottom: 2px solid #FB565A;
 }
 
 .header__cart-icon {
