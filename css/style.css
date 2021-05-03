@@ -52,16 +52,17 @@ a {
   list-style-type: none;
   padding-right: 45px;
   
+  
 }
 
 .menu__list-link {
   font-size: 16px;
   color: #000;
-  
+ 
 }
 
 .header__cart-icon {
-  padding-right: 20px;
+  padding-right: 23px;
 }
 
 .header__cart-link {
