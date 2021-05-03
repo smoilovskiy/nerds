@@ -1,18 +1,43 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Roboto"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/Roboto-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/fonts/Roboto-Regular.woff") format("woff");
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: auto;
+  height: 335px;
+  background-color: #EEEEEE;
+}
+
 .container {
   max-width: 1157px;
   margin: 0 auto;
+
 }
 
 .header__inner {
+  margin-top: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-/*  margin-top: 48px; */
 }
 
 .menu {
- font-size: 25;
- font-weight: 400;
+
+ font-size: 16px;
+ color: #000;
 }
 
 .menu__list {
@@ -21,13 +46,21 @@
 
 .menu__list-item {
   list-style-type: none;
-  padding: 45px;
+  padding-left: 45px;
+}
+
+.menu__list-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
 }
 
 .header__cart-icon {
-
+  align-self: right;
 }
 
 .header__cart-link {
-  padding-left: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
 }
