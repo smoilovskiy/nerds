@@ -12,7 +12,7 @@
 
 body {
   font-family: "Roboto", "Arial", sans-serif;
-	margin: 0;
+  margin: 0;
 }
 
 a {
@@ -58,7 +58,6 @@ a {
 .menu__list-link {
   font-size: 16px;
   color: #000;
- 
 }
 
 .header__cart {
@@ -70,6 +69,6 @@ a {
 }
 
 .header__cart-link {
-  font-size: 16px;
+  font-size: 14px;
   color: #000;
 }
