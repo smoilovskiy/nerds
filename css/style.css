@@ -50,7 +50,7 @@ a {
 
 .menu__list-item {
   list-style-type: none;
-  padding-left: 45px;
+  padding-right: 45px;
   
 }
 
@@ -61,7 +61,7 @@ a {
 }
 
 .header__cart-icon {
-  
+  padding-right: 20px;
 }
 
 .header__cart-link {
