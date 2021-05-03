@@ -39,7 +39,7 @@ a {
 }
 
 .menu {
-
+ padding-top: 15px;
  font-size: 16px;
  color: #000;
 }
@@ -59,6 +59,10 @@ a {
   font-size: 16px;
   color: #000;
  
+}
+
+.header__cart {
+  padding-top: 15px;
 }
 
 .header__cart-icon {
