@@ -38,6 +38,10 @@ a {
   align-items: center;
 }
 
+.header__logo:active {
+  opacity: 0.25;
+}
+
 .menu {
  padding-top: 15px;
  font-size: 15px;
