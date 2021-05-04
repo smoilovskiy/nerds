@@ -38,7 +38,6 @@ a:active {
 .container {
   max-width: 1157px;
   margin: 0 auto;
-  
 }
 
 .header__inner {
@@ -65,15 +64,12 @@ a:active {
 .menu-item {
   list-style-type: none;
   padding-right: 45px;
-  
-  
 }
 
 .menu-item__link {
   font-size: 15px;
   color: #000;
 }
-
 
 .menu-item__link--active {
   padding-bottom: 14px;
@@ -84,12 +80,15 @@ a:active {
   padding-top: 15px;
 }
 
-
-.cart__icon {
-  padding-right: 23px;
-}
-
 .cart {
   font-size: 15px;
   color: #000;
+  position: relative;
+  padding-left: 45px;
+}
+
+.cart__icon{
+  position: absolute;
+  top: 16px;
+  left: 5px;
 }
