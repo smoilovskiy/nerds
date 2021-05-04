@@ -101,6 +101,7 @@ a:active {
 
 .social {
   margin-top: 10px;
+  margin-left: -5px;
   width: 35%;
   display: flex;
   justify-content: flex-start;
