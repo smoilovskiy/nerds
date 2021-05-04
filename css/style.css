@@ -53,8 +53,7 @@ a:active {
 
 .menu {
  padding-top: 15px;
- font-size: 15px;
-
+ margin-left: -35px;
  color: #000;
 }
 
@@ -64,7 +63,7 @@ a:active {
 
 .menu-item {
   list-style-type: none;
-  padding-right: 45px;
+  padding-right: 50px;
 }
 
 .menu-item__link {
@@ -101,13 +100,14 @@ a:active {
 }
 
 .social {
+  margin-top: 10px;
   width: 35%;
   display: flex;
   justify-content: flex-start;
 }
 
 .social__link {
-  margin: 0 5px;
+  margin: 5px;
   display: flex;
   border-radius: 50%;
   background-color: #E1E1E1;
@@ -116,18 +116,20 @@ a:active {
 }
 
 .social__img {
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   margin: auto;
 }
 
 .footer-text__content {
-  font-size: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
   line-height: 0px;
 }
 
 .footer-text__content--bold {
-  font-size: 30px;
+  font-size: 36px;
+  letter-spacing: 0.6px;
   font-weight: 700;
   line-height: 0px;
 }
