@@ -54,6 +54,7 @@ a:active {
 .menu {
  padding-top: 15px;
  font-size: 15px;
+
  color: #000;
 }
 
@@ -68,6 +69,7 @@ a:active {
 
 .menu-item__link {
   font-size: 15px;
+  font-weight: 600;
   color: #000;
 }
 
@@ -79,6 +81,7 @@ a:active {
 .cart {
   padding-top: 15px;
   font-size: 15px;
+  font-weight: 600;
   color: #000;
   position: relative;
   padding-left: 45px;
@@ -88,4 +91,45 @@ a:active {
   position: absolute;
   top: 16px;
   left: 5px;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  
+  height: 200px;
+}
+
+.social {
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social__link {
+  margin: 0 5px;
+  display: flex;
+
+}
+
+.social__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #E1E1E1;
+}
+
+.social__img img {
+  margin: auto;
+}
+
+.footer-text__content {
+  font-size: 12px;
+  line-height: 0px;
+}
+
+.footer-text__content--bold {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0px;
 }
