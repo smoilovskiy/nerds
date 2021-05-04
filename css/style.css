@@ -58,7 +58,7 @@ a:active {
  color: #000;
 }
 
-.menu__list-link:hover {
+.menu__list-link--active {
   padding-bottom: 14px;
   border-bottom: 2px solid #FB565A;
 }
