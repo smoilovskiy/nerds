@@ -70,8 +70,6 @@ a:active {
 .menu__list-item {
   list-style-type: none;
   padding-right: 45px;
-  
-  
 }
 
 .menu__list-link {
@@ -81,11 +79,6 @@ a:active {
 
 .header__cart {
   padding-top: 15px;
-}
-
-.header__cart-link:hover {
-  padding-bottom: 14px;
-  border-bottom: 2px solid #FB565A;
 }
 
 .header__cart-icon {
