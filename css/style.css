@@ -109,17 +109,15 @@ a:active {
 .social__link {
   margin: 0 5px;
   display: flex;
-
+  border-radius: 50%;
+  background-color: #E1E1E1;
+  width: 80px;
+  height: 80px;
 }
 
 .social__img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #E1E1E1;
-}
-
-.social__img img {
+  width: 28px;
+  height: 28px;
   margin: auto;
 }
 
