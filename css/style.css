@@ -97,18 +97,19 @@ a:active {
   display: flex;
   align-items: center;
   height: 200px;
+  justify-content: flex-start;
 }
 
 .social {
   list-style-type: none;
-  margin-top: 10px;
+  padding-inline-start: 0px;
   width: 35%;
   display: flex;
 
 }
 
 .social-item {
-  margin: 5px;
+  margin-right: 10px;
   display: flex;
   border-radius: 50%;
   background-color: #E1E1E1;
