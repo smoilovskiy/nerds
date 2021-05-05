@@ -22,7 +22,7 @@ a {
 a:hover {
   color: #FB565A;
   transition: .5s;
-  
+
 }
 
 a:active {
@@ -96,19 +96,18 @@ a:active {
 .footer__inner {
   display: flex;
   align-items: center;
-  
   height: 200px;
 }
 
 .social {
+  list-style-type: none;
   margin-top: 10px;
-  margin-left: -5px;
   width: 35%;
   display: flex;
-  justify-content: flex-start;
+
 }
 
-.social__link {
+.social-item {
   margin: 5px;
   display: flex;
   border-radius: 50%;
@@ -117,7 +116,7 @@ a:active {
   height: 80px;
 }
 
-.social__img {
+.social-item__img {
   width: 25px;
   height: 25px;
   margin: auto;
