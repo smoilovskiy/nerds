@@ -157,7 +157,22 @@ a:active {
 }
 
 .service__link {
-  padding: 10px 20px 10px 20px;
-  border: 1px solid black;
+  padding: 15px 40px 15px 40px;
+  border: 1px solid transparent;
   border-radius: 3px;
+}
+
+.service__link--websites {
+  color: whitesmoke;
+  background-color: red;
+}
+
+.service__link--applications {
+  color: whitesmoke;
+  background-color: green;
+}
+
+.service__link--presentations {
+  color: whitesmoke;
+  background-color: yellow;
 }
