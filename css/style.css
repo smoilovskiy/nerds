@@ -217,7 +217,7 @@ a {
 }
 
 .about-us__left {
-  
+
 }
 
 .about-us__right {
@@ -246,4 +246,15 @@ a {
 .mid-text {
   font-size: 15px;
   font-weight: 600;
+}
+
+.before-text::before {
+  content: '';
+  background-color: #FB565A;
+  display: inline-block;
+  height: 2px;
+  width: 25px;
+  vertical-align: middle;
+  border: solid #FFF;
+	margin-right: 5px;
 }
