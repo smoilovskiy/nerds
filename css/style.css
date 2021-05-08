@@ -229,10 +229,18 @@ a {
   justify-content: space-between;
 }
 
+.about-us__right-bottom--div {
+  text-align: start;
+}
+
 .big-text {
-  font-size: 45px;
+  font-size: 44px;
   font-weight: 600;
   line-height: 50px;
+}
+
+.percent {
+  font-size: 25px;
 }
 
 .mid-text {
