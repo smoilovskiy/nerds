@@ -207,24 +207,24 @@ a {
 .about-us {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0 70px 0;
+  padding: 30px 0 60px 0;
   border-bottom: solid 2px #E1E1E1;
 }
 
-.logo2 {
+.about-us-right__logo-image {
   width: 360px;
   height: 208px;
 }
 
-.about-us__left {
-
+.about-us-left {
+  margin-top: 50px;
 }
 
-.about-us__right {
+.about-us-right {
   text-align: center;
 }
 
-.about-us__right-bottom {
+.wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -236,16 +236,21 @@ a {
 .big-text {
   font-size: 44px;
   font-weight: 600;
-  line-height: 50px;
+  margin: 0;
 }
 
 .percent {
   font-size: 25px;
 }
 
+.small-text {
+  line-height: 20px;
+}
+
 .mid-text {
   font-size: 15px;
   font-weight: 600;
+  line-height: 80px;
 }
 
 .before-text::before {
