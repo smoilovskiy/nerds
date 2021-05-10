@@ -229,31 +229,32 @@ a {
   justify-content: space-between;
 }
 
-.about-us__right-bottom--div {
+.about-us__right-bottom {
   text-align: start;
 }
 
-.big-text {
+.about-us__big-text {
   font-size: 44px;
   font-weight: 600;
   margin: 0;
+  line-height: 50px;
 }
 
 .percent {
   font-size: 25px;
 }
 
-.small-text {
+.about-us__small-text {
   line-height: 20px;
 }
 
-.mid-text {
+.about-us__mid-text {
   font-size: 15px;
   font-weight: 600;
   line-height: 80px;
 }
 
-.before-text::before {
+.about-us__small-text--decor::before {
   content: '';
   background-color: #FB565A;
   display: inline-block;
