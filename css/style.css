@@ -152,7 +152,6 @@ a {
 
 .service {
   padding: 80px 100px 90px 0;
-  
 }
 
 .service__img {
@@ -265,12 +264,8 @@ a {
 	margin-right: 5px;
 }
 
-.slider__img {
-  background-color: #EEEEEE;
-}
-
 .slider-left {
-  margin: auto;
+  margin: 80px auto 80px 0;
 }
 
 .slider-title {
@@ -280,12 +275,18 @@ a {
   line-height: 50px;
 }
 
+.slider-text {
+  line-height: 30px;
+}
+
 .slider__link {
   padding: 15px 40px 15px 40px;
   border: 1px solid transparent;
   border-radius: 3px;
+  line-height: 100px;
 }
 
-.slider__text {
-  line-height: 50px;
+.slider-content {
+  margin: 0;
+  background-color: #EEEEEE;
 }
