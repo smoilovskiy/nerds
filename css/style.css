@@ -294,6 +294,41 @@ a {
 
 .slider-selector {
   position: absolute;
-  left: 545px;
+  left: 510px;
   top: 340px;
+}
+
+label {
+  position: relative;
+  margin: 12px;
+}
+
+input {
+  width: 1px;
+  height: 1px;
+}
+
+label::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+}
+
+input:checked + label::after {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  border: 2px solid #C1C1C1;
+  background-color: whitesmoke;
 }
