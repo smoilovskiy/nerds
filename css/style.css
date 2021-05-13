@@ -28,6 +28,7 @@ a {
 .container {
   max-width: 1157px;
   margin: 0 auto;
+  position: relative;
 }
 
 .header__inner {
@@ -289,4 +290,10 @@ a {
 .slider-content {
   margin: 0;
   background-color: #EEEEEE;
+}
+
+.slider-selector {
+  position: absolute;
+  left: 650px;
+  top: 340px;
 }
