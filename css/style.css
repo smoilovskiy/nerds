@@ -378,7 +378,7 @@ a {
 .map-marker {
   position: absolute;
   top: 80px;
-  left: 975px;
+  left: 872px;
 }
 
 .map-contact {
@@ -391,7 +391,7 @@ a {
 
 .map-contact__title {
   padding-left: 50px;
-  padding-top: 30px;
+  padding-top: 35px;
   font-size: 18px;
   font-weight: 700;
 }
