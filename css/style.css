@@ -291,11 +291,12 @@ a {
 .slider-content {
   margin: 0;
   background-color: #EEEEEE;
+  position: relative;
 }
 
 .slider-selector {
   position: absolute;
-  left: 510px;
+  left: 700px;
   top: 340px;
 }
 
@@ -366,9 +367,48 @@ a {
 }
 
 .map {
+  position: relative;
 }
 
 .map-img {
   width: 100%;
   height: 416px;
+}
+
+.map-marker {
+  position: absolute;
+  top: 80px;
+  left: 975px;
+}
+
+.map-contact {
+  position: absolute;
+  background-color: #FFF;
+  top: 54px;
+  width: 319px;
+  height: 308px;
+}
+
+.map-contact__title {
+  padding-left: 50px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.map-contact__address {
+  padding-left: 50px;
+
+}
+
+.map-contact__phone {
+  padding-left: 50px;
+}
+
+.map-contact__link {
+  margin-left: 50px;
+  padding: 15px 40px 15px 40px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  line-height: 100px;
 }
