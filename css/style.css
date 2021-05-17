@@ -412,3 +412,16 @@ a {
   border-radius: 3px;
   line-height: 100px;
 }
+
+.catalog-title {
+  margin: 0;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+.catalog-title__text {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 200px;
+}
