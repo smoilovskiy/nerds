@@ -2,10 +2,10 @@
 <html lang="ru">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Project Nerds catalog</title> 
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Nerds catalog</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -40,49 +40,142 @@
     </div>
   </header>
 
-    <main class="main">
-      <div class="catalog-title">
-        <p class="catalog-title__text">Магазин готовых шаблонов</p>
-      </div>
+  <main class="main">
+    <div class="catalog-title">
+      <p class="catalog-title__text">Магазин готовых шаблонов</p>
+    </div>
 
-    </main>
+    <div class="container">
+      <div class="catalog-wrapper">
+        <div class="catalog__left-column">
+          <p class="filter-title">СТОИМОСТЬ:</p>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__inner">
-          <ul class="social">
-            <li>
-              <a class="social-item" href="#">
-                <img class="social-item__img" src="images/icon/vk.svg" alt="vk icon">
-              </img>
-            </a>
-            </li>
-            <li>
-              <a class="social-item" href="#">
-                <img class="social-item__img" src="images/icon/facebook.svg" alt="facebook icon">
-               </img>
-              </a>
-            </li>
-            <li>
-            <a class="social-item" href="#">
-              <img class="social-item__img" src="images/icon/instagram.svg" alt="instagram icon">
-            </img>
-            </a>
-            </li>
-          </ul>
+          <div class="filter">
+            <div class="filter-range-wrapper">
+              <div class="filter-range">
+                <div class="filter-range-scale">
+                  <div class="filter-range-bar"></div>
+                </div>
+                <button class="filter-range-handle min"></button>
+                <button class="filter-range-handle max" style="left: 75%;"></button>
+              </div>
+            </div>
 
-          <div class="footer-text">
-            <p class="footer-text__content footer-text__content--bold">
-              Давайте дружить, это выгодно!
-            </p>
-            <p class="footer-text__content">
-              Скидка 10% для друзей из социальных сетей.
-            </p>
+            <div class="filter-interval">
+              <label>От <input type="text" name="min-interval" value="0"></label>
+              <label>До <input type="text" name="max-interval" value="15000"></label>
+            </div>
           </div>
+
+          <p class="catalog-view-title">СЕТКА:</p>
+          <div class="catalog-view">
+            <input class="catalog-view__input" type="radio" name="catalog-view-item" id="adaptive" value="1" checked>
+            <label class="catalog-view__label" for="adaptive">Адаптивная</label>
+          </div>
+          <div class="catalog-view">
+            <input class="catalog-view__input" type="radio" name="catalog-view-item" id="fixed" value="2">
+            <label class="catalog-view__label" for="fixed">Фиксированная</label>
+          </div>
+          <div class="catalog-view">
+            <input class="catalog-view__input" type="radio" name="catalog-view-item" id="rubber" value="3">
+            <label class="catalog-view__label" for="rubber">Резиновая</label>
+          </div>
+
+          <p class="catalog-view-title">ОСОБЕННОСТИ:</p>
+
+          <div class="features">
+            <input class="features__input" type="checkbox" name="features-item" id="slider" value="1" checked>
+            <label class="features__label" for="slider">Слайдер</label>
+          </div>
+          <div class="features">
+            <input class="features__input" type="checkbox" name="features-item" id="advantages-block" value="2">
+            <label class="features__label" for="advantages-block">Блок преимуществ</label>
+          </div>
+          <div class="features">
+            <input class="features__input" type="checkbox" name="features-item" id="news" value="3" checked>
+            <label class="features__label" for="news">Новости</label>
+          </div>
+          <div class="features">
+            <input class="features__input" type="checkbox" name="features-item" id="gallery" value="4">
+            <label class="features__label" for="gallery">Галерея</label>
+          </div>
+          <div class="features">
+            <input class="features__input" type="checkbox" name="features-item" id="cart" value="5">
+            <label class="features__label" for="cart">Корзина</label>
+          </div>
+          <a class="features-apply-link gray-bttn" href="#">ПОКАЗАТЬ</a>
+
+
+        </div>
+
+        <!-- <div class="catalog__center-column">
+          <p class="catalog-sort">СОРТИРОВАТЬ:</p>
+          <img class="template-preview" src="images/img-sedona.png" alt="sedona-img">
+
+        </div>
+        <div class="catalog__right-column">
+          <div class="sort-selector">
+            <a class="sort-item" href="#">ПО ЦЕНЕ</a>
+            <a class="sort-item" href="#">ПО ТИПУ</a>
+            <a class="sort-item" href="#">ПО НАЗВАНИЮ</a>
+          </div>
+          <img class="template-preview" src="images/img-pink.png" alt="pink-img">
+        </div> -->
+
+      </div>
+    </div>
+
+    <div class="map">
+      <img class="map-img" src="images/map.png" alt="map">
+      <div class="container">
+        <div class="map-contact">
+          <p class="map-contact__title">NЁRDS DESIGN STUDIO</p>
+          <p class="map-contact__address">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+          <p class="map-contact__phone">тел. +7 (812) 275-75-75</p>
+          <a class="map-contact__link red-bttn" href="#">НАПИШИТЕ НАМ</a>
         </div>
       </div>
-    </footer>
+      <img class="map-marker" src="images/map-marker.png" alt="map-marker">
 
-  </body>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <ul class="social">
+          <li>
+            <a class="social-item" href="#">
+              <img class="social-item__img" src="images/icon/vk.svg" alt="vk icon">
+              </img>
+            </a>
+          </li>
+          <li>
+            <a class="social-item" href="#">
+              <img class="social-item__img" src="images/icon/facebook.svg" alt="facebook icon">
+              </img>
+            </a>
+          </li>
+          <li>
+            <a class="social-item" href="#">
+              <img class="social-item__img" src="images/icon/instagram.svg" alt="instagram icon">
+              </img>
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer-text">
+          <p class="footer-text__content footer-text__content--bold">
+            Давайте дружить, это выгодно!
+          </p>
+          <p class="footer-text__content">
+            Скидка 10% для друзей из социальных сетей.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
 
 </html>
