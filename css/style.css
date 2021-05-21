@@ -419,6 +419,7 @@ a {
 }
 
 .catalog__left-column {
+  width: 280px;
 }
 
 .catalog-title {
@@ -439,8 +440,11 @@ a {
   font-weight: 400;
 }
 
-.catalog__right-column {
-
+.catalog-top-sort {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  width: 756px;
 }
 
 .sort-selector {
@@ -450,6 +454,41 @@ a {
 
 .sort-item {
   line-height: 121px;
+  padding-right: 20px;
+  font-size: 14px;
+  color: #000;
+  opacity: 0.25;
+}
+
+.sort-item:hover {
+  opacity: 0.5;
+}
+
+.sort-item:active {
+  opacity: 1;
+}
+
+.sort-item:focus {
+  opacity: 1;
+}
+
+.arrow-item {
+  line-height: 121px;
+  padding-left: 15px;
+  color: #000;
+  opacity: 0.25;
+}
+
+.arrow-item:hover {
+  opacity: 0.5;
+}
+
+.arrow-item:active {
+  opacity: 1;
+}
+
+.arrow-item:focus {
+  opacity: 1;
 }
 
 .filter-title {
