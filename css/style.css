@@ -860,3 +860,38 @@ a {
 .product-description {
   padding-top: -10px;
 }
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  }
+  
+.modal-background:target {
+  opacity: 1; 
+  pointer-events: auto;
+  }
+  
+.modal-window {
+  margin: 5% auto;
+  width: 960px;
+  min-height: 590px;
+  background-color: #FFF;
+  box-shadow: 0 20px 40px rgb(0 0 0 / 40%);
+  }
+
+.modal-container {
+  text-align: center;
+  padding-top: 300px;
+}
+
+.modal-window__link {
+  padding: 15px 100px 15px 100px;
+  border-radius: 3px;
+  text-decoration: none;
+}
