@@ -776,11 +776,19 @@ a {
 .product-title {
   font-size: 18px;
   font-weight: 700;
-  line-height: 40px;
+  padding-top: 20px;
 }
 
-.product-title:hover {
+.product-title__link {
+  color: #000;
+}
+
+.product-title__link:hover {
   color: #FB565A;
+}
+
+.product-title__link:active {
+  color: #DFDFDF;
 }
 
 .product-item::before {
@@ -804,5 +812,5 @@ a {
 }
 
 .product-description {
-  line-height: 22px;
+  padding-top: -10px;
 }
