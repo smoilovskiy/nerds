@@ -181,7 +181,7 @@ a {
 }
 
 .red-bttn:active {
-  
+  box-shadow: inset 0 3px #D7373B;
 }
 
 .service__link--applications {
@@ -194,6 +194,12 @@ a {
   background-color: #00BC6C;
 }
 
+.service__link--applications:active {
+  color: whitesmoke;
+  background-color: #009E5A;
+  box-shadow: inset 0 3px #008D50;
+}
+
 .service__link--presentations {
   color: whitesmoke;
   background-color: #EFC84A;
@@ -202,6 +208,12 @@ a {
 .service__link--presentations:hover {
   color: whitesmoke;
   background-color:  #EAB534;
+}
+
+.service__link--presentations:active {
+  color: whitesmoke;
+  background-color: #EAB534;
+  box-shadow: inset 0 3px #EBAD12;
 }
 
 .about-us {
@@ -694,6 +706,11 @@ a {
 .gray-bttn:hover {
   color: #000;
   background-color: #DFDFDF;
+}
+
+.gray-bttn:active {
+  box-shadow: inset 0 3px ;
+  color: #b3b3b3;
 }
 
 .page-selector-list {
