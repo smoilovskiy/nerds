@@ -104,9 +104,9 @@ a {
 .social {
   list-style-type: none;
   padding-inline-start: 0px;
-  width: 35%;
+  width: 400px;
   display: flex;
-
+  padding-top: 10px;
 }
 
 .social-item {
@@ -132,17 +132,22 @@ a {
   margin: auto;
 }
 
+.footer-text {
+  padding: 20px 0 10px 0;
+}
+
 .footer-text__content {
   font-size: 14px;
   letter-spacing: 1px;
-  line-height: 0px;
+  margin-top: 10px;
 }
 
-.footer-text__content--bold {
+.footer-text__content-bold {
   font-size: 36px;
   letter-spacing: 0.6px;
   font-weight: 700;
-  line-height: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .services {
