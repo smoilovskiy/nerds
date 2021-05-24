@@ -886,11 +886,11 @@ a {
   }
 
 .modal-container {
-  padding: 80px 100px 80px 100px;
+  padding: 64px 100px 80px 100px;
 }
 
 .modal-window__link {
-  padding: 15px 100px 15px 100px;
+  padding: 15px 85px 15px 85px;
   border-radius: 3px;
   text-decoration: none;
 }
@@ -906,25 +906,33 @@ a {
   font-size: 45px;
   font-weight: 700;
   margin: 0;
+  padding-bottom: 4px;
 }
 
 .close-cross-image {
   width: 21px;
   height: 21px;
+  opacity: 0.5;
+}
+
+.close-cross-image:hover {
+  opacity: 1;
+}
+
+.close-cross-image:active {
+  opacity: 0.25;
 }
 
 .modal-name-and-email {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
+  padding-bottom: 22px;
 }
 
 .modal-name {
-
+  padding-right: 40px;
 }
 
 .modal-email {
-  width: 330px;
   text-align: left;
 }
 
@@ -941,15 +949,28 @@ a {
 }
 
 .modal-text-area {
-  padding-bottom: 50px;
+  padding-bottom: 63px;
 }
 
 .your-name-input, .your-email-input {
-  width: 315px;
-  height: 30px;
+  width: 340px;
+  height: 44px;
+  border: 2px solid #D7DCDE;
+  border-radius: 3px;
+  padding-left: 15px;
+  font-size: 16px;
 }
 
+.your-name-input:hover, .your-email-input:hover, .form-textarea:hover {
+  border-color: #B4B9BB;
+} 
+
 .form-textarea {
-  width: 745px;
-  height: 150px;
+  width: 742px;
+  height: 97px;
+  border: 2px solid #D7DCDE;
+  border-radius: 3px;
+  padding-top: 13px;
+  padding-left: 15px;
+  font-size: 16px;
 }
