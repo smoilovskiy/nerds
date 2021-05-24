@@ -886,8 +886,7 @@ a {
   }
 
 .modal-container {
-  text-align: center;
-  padding-top: 300px;
+  padding: 80px 100px 80px 100px;
 }
 
 .modal-window__link {
@@ -895,3 +894,66 @@ a {
   border-radius: 3px;
   text-decoration: none;
 }
+
+.modal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.modal-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.close-cross-image {
+  width: 21px;
+  height: 21px;
+}
+
+.modal-name-and-email {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.modal-name {
+
+}
+
+.modal-email {
+  width: 330px;
+  text-align: left;
+}
+
+.your-name-label, .your-email-label, .your-message-label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.your-name-label, .your-name-input, 
+.your-email-label, .your-email-input,
+.your-message-label, .form-textarea {
+  display: block;
+}
+
+.modal-text-area {
+  padding-bottom: 50px;
+}
+
+.your-name-input, .your-email-input {
+  width: 315px;
+  height: 30px;
+}
+
+.form-textarea {
+  width: 745px;
+  height: 150px;
+}
+
+
+
+

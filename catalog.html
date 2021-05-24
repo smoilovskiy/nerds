@@ -232,7 +232,34 @@
     <div id="modal" class="modal-background">
       <div class="modal-window">
         <div class="modal-container">
-          <a class="modal-window__link red-bttn" href=" ">ЗАКРЫТЬ</a>
+          <div class="modal-top">
+            <p class="modal-title">Напишите нам</p>
+            <a class="close-cross" href=" ">
+              <img class="close-cross-image" src="images/icon/close-cross.svg" alt="close-cross">
+            </a>
+          </div>
+          <form class="leave-message">
+            <div class="modal-name-and-email">
+              <div class="modal-name">
+                <label class="your-name-label">Ваше имя:
+                  <input class="your-name-input" type="text" name="name" placeholder="Имя Фамилия">
+                </label>
+
+              </div>
+              <div class="modal-email">
+                <label class="your-email-label">Ваш email:
+                  <input class="your-email-input" type="email" name="email" placeholder="email@example.com">
+                </label>
+              </div>
+            </div>
+
+            <div class="modal-text-area">
+              <label class="your-message-label">Текст письма:
+                <textarea class="form-textarea" name="message" placeholder="В свободной форме"></textarea>
+              </label>
+            </div>
+            <a class="modal-window__link red-bttn" href="#">ОТПРАВИТЬ</a>
+          </form>
         </div>
       </div>
     </div>
