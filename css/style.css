@@ -948,7 +948,7 @@ a {
   display: block;
 }
 
-.modal-text-area {
+.modal-message {
   padding-bottom: 63px;
 }
 
@@ -965,7 +965,7 @@ a {
   border-color: #B4B9BB;
 } 
 
-.form-textarea {
+.modal-message__textarea {
   width: 742px;
   height: 97px;
   border: 2px solid #D7DCDE;
