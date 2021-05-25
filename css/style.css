@@ -909,17 +909,17 @@ a {
   padding-bottom: 4px;
 }
 
-.close-cross-image {
+.close-cross__image {
   width: 21px;
   height: 21px;
   opacity: 0.5;
 }
 
-.close-cross-image:hover {
+.close-cross__image:hover {
   opacity: 1;
 }
 
-.close-cross-image:active {
+.close-cross__image:active {
   opacity: 0.25;
 }
 
@@ -936,15 +936,15 @@ a {
   text-align: left;
 }
 
-.your-name-label, .your-email-label, .your-message-label {
+.modal-name__label, .modal-email__label, .modal-message__label {
   font-size: 16px;
   font-weight: 700;
   line-height: 40px;
 }
 
-.your-name-label, .your-name-input, 
-.your-email-label, .your-email-input,
-.your-message-label, .form-textarea {
+.modal-name__label, .modal-name__input, 
+.modal-email__label, .modal-email__input,
+.modal-message__label, .form-textarea {
   display: block;
 }
 
@@ -952,7 +952,7 @@ a {
   padding-bottom: 63px;
 }
 
-.your-name-input, .your-email-input {
+.modal-name__input, .modal-email__input {
   width: 340px;
   height: 44px;
   border: 2px solid #D7DCDE;
@@ -961,7 +961,7 @@ a {
   font-size: 16px;
 }
 
-.your-name-input:hover, .your-email-input:hover, .form-textarea:hover {
+.modal-name__input:hover, .modal-email__input:hover, .form-textarea:hover {
   border-color: #B4B9BB;
 } 
 
