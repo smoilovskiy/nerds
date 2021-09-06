@@ -1,8 +1,8 @@
 # nerds
 
-Made using HTML CSS with BEM methodology.
-Figma layout.
-Tools: VS Code, Git, Figma
+Made using HTML CSS with BEM methodology.<br>
+Figma layout.<br>
+Tools: VS Code, Git, Figma<br>
 
 Applied Flexboxes, 
 custom radio-buttons, check-boxes created with pseudo-elements
